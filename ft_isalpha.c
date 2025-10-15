@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 int	ft_isalpha(char *s)
 {
 	while(*s)
@@ -11,6 +9,9 @@ int	ft_isalpha(char *s)
 	return 1;
 }
 
+/*
+#include <stdio.h>
+
 int	main(void)
 {
 	printf("%d\n", ft_isalpha("Hello"));
@@ -20,3 +21,4 @@ int	main(void)
 	printf("%d\n", ft_isalpha("_~"));
 	printf("%d\n", ft_isalpha("g"));
 }
+*/

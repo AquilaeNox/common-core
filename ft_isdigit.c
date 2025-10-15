@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 int	ft_isdigit(char *s)
 {
 	while (*s)
@@ -11,11 +9,16 @@ int	ft_isdigit(char *s)
 	return (1);
 }
 
+/*
+#include <stdio.h>
 
 int	main(void)
 {
 	printf("%d\n", ft_isdigit("23434"));
 	printf("%d\n", ft_isdigit("sd324"));
 	printf("%d\n", ft_isdigit("s"));
+	printf("%d\n", ft_isdigit("435345"));
+	printf("%d\n", ft_isdigit("4dc"));
 	return (0);
 }
+*/

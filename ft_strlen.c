@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 int	ft_strlen(char	*s)
 {
 	int	c;
@@ -14,9 +12,13 @@ int	ft_strlen(char	*s)
 	return (c);
 }
 
+/*
+#include <stdio.h>
+
 int	main(void)
 {
 	char	*s = "Hello World";
 	printf("%d", ft_strlen(s));
 	return 0;
 }
+*/
