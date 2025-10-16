@@ -3,7 +3,7 @@
 int ft_count(const char *str)
 {
     const char *p = str;
-    whie (*p) {p++;}
+    while (*p) {p++;}
     return (int)(p - str);
 }
 
