@@ -1,15 +1,8 @@
-int	ft_strlen(char	*s)
+int	ft_strlen(const char	*s)
 {
-	int	c;
-
-	c = 0;
-	while (*s)
-	{
-		c++;
-		s++;
-	}
-
-	return (c);
+    const char *p = s;
+	while (*p){p++;}
+	return (int)(p - s);
 }
 
 /*
@@ -17,8 +10,10 @@ int	ft_strlen(char	*s)
 
 int	main(void)
 {
-	char	*s = "Hello World";
-	printf("%d", ft_strlen(s));
+	char *s  = "Hello World!";
+	char *si = "Saying Hello!";
+	printf("%d\n", ft_strlen(s));
+	printf("%d\n", ft_strlen(si));
 	return 0;
 }
 */

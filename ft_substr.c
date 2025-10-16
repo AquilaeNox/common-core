@@ -7,9 +7,11 @@ int ft_count(const char *str)
     return (int)(p - str);
 }
 
-char *ft_substr(const char *str, const char *sub) {
+char *ft_substr(const char *str, const char *sub)
+{
     int cnt = ft_count(sub);
 
+    //WIP!
     while (*str)
     {
         char *tstr = str;
