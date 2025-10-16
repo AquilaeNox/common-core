@@ -1,13 +1,22 @@
-#include <string.h>
+#include <stdio.h>
+
+int ft_count(const char *str)
+{
+    const char *p = str;
+    whie (*p) {p++;}
+    return (int)(p - str);
+}
 
 char *ft_substr(const char *str, const char *sub) {
-    while (*str) {
+    int cnt = ft_count(sub);
+
+    while (*str)
+    {
         char *tstr = str;
         char *tsub = sub;
 
-        while (*tsub && *tstr == *tsub) {
-            tsub++;
-            tstr++;
+        while (*tstr && *tstr++ == *tsub++) {
+            if (cnt == )
         }
         str++;
     }
@@ -15,5 +24,5 @@ char *ft_substr(const char *str, const char *sub) {
 }
 
 int main(void) {
-
+    printf()
 }

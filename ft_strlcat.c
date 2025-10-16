@@ -1,4 +1,5 @@
-char *ft_strlcat(char *dest, const char *src) {
+char *ft_strlcat(char *dest, const char *src)
+{
     char    *p = dest;
     while (*p) {p++;}
     while (*src) {
